@@ -1100,6 +1100,7 @@ button {
 .elevate-card:hover {
     transform: translateY(-20px);
     box-shadow: 0 12px 25px rgba(152, 29, 135, 0.08);
+    /* background-color: #ee05db; */
 }
 
 .elevate-card.elevate-featured {
@@ -3174,6 +3175,14 @@ button {
     font-size: 13px;
     font-weight: 400;
     color: #777b80;
+}
+
+@media (max-width: 600px) {
+    
+    .quick-links-container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
 }
 
 .wema-sustainability {

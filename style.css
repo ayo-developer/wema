@@ -179,7 +179,7 @@ button {
     display: none;
     flex-direction: column;
     padding: 12px 0;
-    /* z-index: 9999; */
+    z-index: 9999;
 }
 
 .dropdown-menu::before {
